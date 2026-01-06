@@ -5,7 +5,7 @@ metadata:
   namespace: blogging
 spec:
   hosts:
-    - adarsh-jain-ecom.gt.tc
+    - adarsh.adarsh-jain-ecom.gt.tc
   gateways:
     - bloggingapp-gateway
   http:
