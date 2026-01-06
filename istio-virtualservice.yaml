@@ -12,6 +12,11 @@ spec:
     - match:
         - uri:
             prefix: /
+      headers:
+        request:
+          set:
+            X-Forwarded-Proto: http
+            X-Forwarded-Port: "80"
       route:
         - destination:
             host: bloggingapp-ssvc
